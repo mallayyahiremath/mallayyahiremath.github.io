@@ -4,9 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Senior Tech Support Engineer Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            margin: 0 0 10px 0;
+        }
+        section {
+            background: #fff;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+        }
+        .project-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            background: #fafafa;
+        }
+        .project-title {
+            font-weight: bold;
+            font-size: 1.2em;
+            color: #2980b9;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, I'm a Senior Technology Support Engineer</h1>
-    <p>Welcome to my technical portfolio. Here you will find my automation scripts, homelab documentation, and troubleshooting write-ups.</p>
+
+    <header>
+        <h1>[Your Name]</h1>
+        <p>Senior Technology Support Engineer | Systems Automation | Escalation Management</p>
+        <p>
+            <a href="mailto:your.email@example.com" style="color: #fff; text-decoration: underline;">Email Me</a> | 
+            <a href="https://linkedin.com/in/yourprofile" style="color: #fff; text-decoration: underline;">LinkedIn</a> |
+            <a href="[Link to your PDF Resume]" style="color: #fff; text-decoration: underline;">Download Resume</a>
+        </p>
+    </header>
+
+    <section id="about">
+        <h2>Professional Summary</h2>
+        <p>Senior Technology Support Engineer with [X] years of experience managing complex IT infrastructures, resolving Tier 3 escalations, and automating routine administrative tasks. Proven ability to bridge the gap between technical operations and end-user satisfaction while improving system reliability.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Core Competencies</h2>
+        <p><strong>Systems Administration:</strong> Active Directory, Microsoft 365, Exchange, Azure AD</p>
+        <p><strong>Networking:</strong> TCP/IP, DNS, DHCP, VPN troubleshooting, Meraki/Cisco</p>
+        <p><strong>Automation & Scripting:</strong> PowerShell, Bash, Python</p>
+        <p><strong>Service Management:</strong> ServiceNow, Jira, ITIL v4 Framework, Root Cause Analysis</p>
+    </section>
+
+    <section id="projects">
+        <h2>Proof of Work & Documentation</h2>
+        
+        <div class="project-card">
+            <div class="project-title">1. Automated Employee Offboarding Script (PowerShell)</div>
+            <p><strong>The Problem:</strong> Manual offboarding was taking 30 minutes per user and was prone to human error.</p>
+            <p><strong>The Solution:</strong> Wrote a PowerShell script that disables AD accounts, revokes M365 licenses, and archives mailboxes automatically.</p>
+            <p><strong>The Impact:</strong> Reduced processing time to under 2 minutes and eliminated licensing waste.</p>
+            <a href="[Link to a new page or repository with the code]">View the Code and Documentation &rarr;</a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-title">2. Proxmox Virtualization Homelab</div>
+            <p><strong>Overview:</strong> Designed and deployed a personal homelab to test enterprise configurations before pushing to production.</p>
+            <p><strong>Technologies Used:</strong> Proxmox VE, Ubuntu Server, Docker, Windows Server 2022.</p>
+            <p><strong>Highlights:</strong> Configured a site-to-site VPN and set up automated patch management using Ansible.</p>
+            <a href="[Link to your homelab diagram/write-up]">View the Architecture &rarr;</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 [Your Name]. Built with GitHub Pages.</p>
+    </footer>
+
 </body>
 </html>
