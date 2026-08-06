@@ -3,58 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Senior Tech Support Engineer Portfolio</title>
+    <title>Mallayya Hiremath - Senior Workplace Technology Engineer</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: #333;
-            max-width: 900px;
+            max-width: 950px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f9f9f9;
+            background-color: #f4f7f6;
         }
         header {
-            background: #2c3e50;
+            background: #1a252c;
             color: #fff;
-            padding: 40px 20px;
+            padding: 40px 30px;
             text-align: center;
             border-radius: 8px;
             margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
         header h1 {
+            margin: 0 0 5px 0;
+            font-size: 2.5em;
+        }
+        header h3 {
             margin: 0 0 10px 0;
+            color: #85c1e9;
+            font-weight: 400;
+        }
+        .contact-links p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+        .contact-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            border-bottom: 1px dotted #85c1e9;
+        }
+        .contact-links a:hover {
+            color: #85c1e9;
         }
         section {
             background: #fff;
-            padding: 25px;
+            padding: 30px;
             margin-bottom: 25px;
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
         }
         h2 {
-            color: #2c3e50;
+            color: #1a252c;
             border-bottom: 2px solid #3498db;
-            padding-bottom: 5px;
+            padding-bottom: 8px;
+            margin-top: 0;
         }
-        .project-card {
-            border: 1px solid #ddd;
-            padding: 15px;
-            margin-bottom: 15px;
-            border-radius: 5px;
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .project-card, .job-card {
+            border-left: 4px solid #3498db;
+            padding: 20px;
+            margin-bottom: 20px;
             background: #fafafa;
+            border-radius: 0 5px 5px 0;
         }
-        .project-title {
+        .project-title, .job-title {
             font-weight: bold;
             font-size: 1.2em;
             color: #2980b9;
+            margin-bottom: 5px;
         }
-        a {
-            color: #3498db;
-            text-decoration: none;
+        .metric-badge {
+            background: #e8f4f8;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+            color: #21618c;
+            font-size: 0.9em;
+            display: inline-block;
+            margin: 2px;
         }
-        a:hover {
-            text-decoration: underline;
+        ul {
+            margin-top: 10px;
+            padding-left: 20px;
         }
         footer {
             text-align: center;
@@ -67,50 +101,110 @@
 <body>
 
     <header>
-        <h1>[Your Name]</h1>
-        <p>Senior Technology Support Engineer | Systems Automation | Escalation Management</p>
-        <p>
-            <a href="mailto:your.email@example.com" style="color: #fff; text-decoration: underline;">Email Me</a> | 
-            <a href="https://linkedin.com/in/yourprofile" style="color: #fff; text-decoration: underline;">LinkedIn</a> |
-            <a href="[Link to your PDF Resume]" style="color: #fff; text-decoration: underline;">Download Resume</a>
-        </p>
+        <h1>MALLAYYA HIREMATH</h1>
+        <h3>Senior Workplace Technology Engineer</h3>
+        <p>Enterprise IT Operations | Workplace Technology | End User Computing | Automation & AI Solutions</p>
+        <div class="contact-links">
+            <p>📍 Dubai, United Arab Emirates (Open to Relocation – India & Global)</p>
+            <p>
+                <a href="mailto:mallayyahiremath1992@gmail.com">mallayyahiremath1992@gmail.com</a> | 
+                <a href="https://linkedin.com/in/mallayyahiremath1992" target="_blank">LinkedIn Profile</a>
+            </p>
+        </div>
     </header>
 
-    <section id="about">
-        <h2>Professional Summary</h2>
-        <p>Senior Technology Support Engineer with [X] years of experience managing complex IT infrastructures, resolving Tier 3 escalations, and automating routine administrative tasks. Proven ability to bridge the gap between technical operations and end-user satisfaction while improving system reliability.</p>
+    <section id="profile">
+        <h2>Professional Profile</h2>
+        <p>Senior Workplace Technology Engineer with over 10 years of progressive experience delivering enterprise IT operations, Workplace Technology, End User Computing (EUC), Endpoint Management, Identity & Access Management (IAM), and IT Service Management (ITSM) across multinational organizations.</p>
+        <p>Experienced in supporting 600+ regional users while collaborating with global IT teams supporting 1,000+ employees across multiple locations. Passionate about leveraging automation to improve business operations, documenting operational knowledge, and delivering reliable, customer-focused technology services.</p>
+    </section>
+
+    <section id="stats">
+        <h2>Career Highlights & Scale</h2>
+        <div>
+            <span class="metric-badge">10+ Years Experience</span>
+            <span class="metric-badge">1,000+ Global Users Supported</span>
+            <span class="metric-badge">2,000+ Apple Devices Managed</span>
+            <span class="metric-badge">500+ Windows Laptops Deployed</span>
+            <span class="metric-badge">1,500+ Onboardings</span>
+            <span class="metric-badge">75+ Meeting Rooms Deployed</span>
+        </div>
     </section>
 
     <section id="skills">
-        <h2>Core Competencies</h2>
-        <p><strong>Systems Administration:</strong> Active Directory, Microsoft 365, Exchange, Azure AD</p>
-        <p><strong>Networking:</strong> TCP/IP, DNS, DHCP, VPN troubleshooting, Meraki/Cisco</p>
-        <p><strong>Automation & Scripting:</strong> PowerShell, Bash, Python</p>
-        <p><strong>Service Management:</strong> ServiceNow, Jira, ITIL v4 Framework, Root Cause Analysis</p>
+        <h2>Core Technical Competencies</h2>
+        <div class="grid-2">
+            <div>
+                <p><strong>Endpoint Management:</strong> JAMF Pro, Microsoft Intune, FileWave, Apple Business Manager (ABM), Microsoft Autopilot</p>
+                <p><strong>Identity & Access (IAM):</strong> Okta, Microsoft Entra ID, Active Directory, Google Admin Console, MFA, SSO</p>
+                <p><strong>Security & Network:</strong> Microsoft Defender, BitLocker, FileVault, LAN/WAN, VPN, DNS, DHCP</p>
+            </div>
+            <div>
+                <p><strong>Collaboration Platforms:</strong> Microsoft 365, Google Workspace, Teams, Slack, Zoom, Sharepoint</p>
+                <p><strong>ITSM & Operations:</strong> ServiceNow, Jira Service Management, Executive & VIP Support</p>
+                <p><strong>Automation & Scripting:</strong> Google Apps Script, PowerShell, Bash, Python, HTML5, CSS3, JavaScript</p>
+            </div>
+        </div>
     </section>
 
     <section id="projects">
-        <h2>Proof of Work & Documentation</h2>
+        <h2>Major Engineering Projects</h2>
         
         <div class="project-card">
-            <div class="project-title">1. Automated Employee Offboarding Script (PowerShell)</div>
-            <p><strong>The Problem:</strong> Manual offboarding was taking 30 minutes per user and was prone to human error.</p>
-            <p><strong>The Solution:</strong> Wrote a PowerShell script that disables AD accounts, revokes M365 licenses, and archives mailboxes automatically.</p>
-            <p><strong>The Impact:</strong> Reduced processing time to under 2 minutes and eliminated licensing waste.</p>
-            <a href="[Link to a new page or repository with the code]">View the Code and Documentation &rarr;</a>
+            <div class="project-title">AI-Powered Facilities Management Platform</div>
+            <p><strong>Technologies:</strong> Google Apps Script, HTML5, CSS3, JavaScript, Google Sheets</p>
+            <ul>
+                <li>Designed and developed an AI-enabled Facilities Management Platform to digitize and automate facilities operations across multiple office locations.</li>
+                <li>Automated Vendor Management, Compliance Tracking, and Email Notifications.</li>
+                <li><strong>Business Impact:</strong> Reduced manual effort by 75%, saved approximately 25 hours per week, and improved operational visibility.</li>
+            </ul>
         </div>
 
         <div class="project-card">
-            <div class="project-title">2. Proxmox Virtualization Homelab</div>
-            <p><strong>Overview:</strong> Designed and deployed a personal homelab to test enterprise configurations before pushing to production.</p>
-            <p><strong>Technologies Used:</strong> Proxmox VE, Ubuntu Server, Docker, Windows Server 2022.</p>
-            <p><strong>Highlights:</strong> Configured a site-to-site VPN and set up automated patch management using Ansible.</p>
-            <a href="[Link to your homelab diagram/write-up]">View the Architecture &rarr;</a>
+            <div class="project-title">Conde Nast Middle East Office Expansion</div>
+            <ul>
+                <li>Played a key role in the successful establishment of the Dubai office by planning and deploying enterprise workplace technology infrastructure.</li>
+                <li>Onboarded 150+ employees, configured and deployed 200+ enterprise endpoints, and commissioned 12 meeting rooms.</li>
+            </ul>
         </div>
     </section>
 
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        
+        <div class="job-card">
+            <div class="job-title">Senior Workplace Technology Engineer / IT Support Business Partner</div>
+            <p><em>Conde Nast | Dubai, UAE & Bangalore, India | Sep 2020 – Present</em></p>
+            <ul>
+                <li>Selected for an internal international relocation from India to Dubai to support the establishment and growth of Conde Nast Middle East.</li>
+                <li>Deliver enterprise L1/L2 Workplace Technology support for 600+ regional users while collaborating with global technology teams supporting 1,000+ employees.</li>
+                <li>Administer enterprise endpoint environments using JAMF Pro, Microsoft Intune, and FileWave, successfully managing 700+ Apple devices and 100–150 Windows laptops.</li>
+            </ul>
+        </div>
+
+        <div class="job-card">
+            <div class="job-title">System Engineer (L2)</div>
+            <p><em>FCB ULKA Advertising Pvt. Ltd. | Bangalore, India | March 2017 – August 2020</em></p>
+            <ul>
+                <li>Delivered enterprise Workplace Technology and End User Computing (EUC) services for approximately 200 users.</li>
+                <li>Provided specialized support for creative production environments (Adobe Creative Cloud, Wacom).</li>
+                <li>Retained by the client through three managed service provider transitions (NTT DATA, IBM India, and Wipro) reflecting strong client trust.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education & Certifications</h2>
+        <ul>
+            <li><strong>AWS Certified Cloud Practitioner</strong></li>
+            <li><strong>ITIL® 4 Foundation</strong></li>
+            <li><strong>JAMF 100</strong></li>
+            <li><strong>Bachelor of Science (B.Sc.) – Computer Science</strong> | Rani Channamma University (2015)</li>
+        </ul>
+    </section>
+
     <footer>
-        <p>&copy; 2026 [Your Name]. Built with GitHub Pages.</p>
+        <p>&copy; 2026 Mallayya Hiremath. Built with GitHub Pages.</p>
     </footer>
 
 </body>
