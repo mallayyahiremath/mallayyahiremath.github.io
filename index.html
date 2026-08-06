@@ -47,8 +47,14 @@
         .nav-links a { margin-left: 20px; color: var(--text-main); font-size: 0.9rem; text-transform: uppercase; }
         .nav-links a:hover { color: var(--neon-blue); }
 
-        /* --- HERO SECTION --- */
-        #home { height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; background: radial-gradient(circle at center, #1a1a24 0%, var(--bg-color) 70%); }
+        /* --- HERO SECTION & PROFILE IMAGE --- */
+        #home { padding-top: 150px; min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; background: radial-gradient(circle at center, #1a1a24 0%, var(--bg-color) 70%); }
+        
+        /* ಹೊಸದಾಗಿ ಸೇರಿಸಿದ ಫೋಟೋ ವಿನ್ಯಾಸ */
+        .profile-img-wrapper { margin-bottom: 25px; }
+        .profile-img { width: 180px; height: 180px; border-radius: 50%; object-fit: cover; border: 3px solid var(--neon-blue); box-shadow: 0 0 25px rgba(0, 243, 255, 0.5); transition: 0.4s; }
+        .profile-img:hover { border-color: var(--neon-purple); box-shadow: 0 0 35px rgba(176, 38, 255, 0.7); transform: scale(1.05); }
+        
         .hero-title { font-size: 4rem; margin-bottom: 10px; text-shadow: 0 0 20px rgba(255,255,255,0.2); }
         .hero-subtitle { font-size: 1.5rem; color: var(--neon-blue); margin-bottom: 20px; height: 30px; }
         .hero-tags { font-size: 0.9rem; letter-spacing: 1px; margin-bottom: 30px; color: var(--text-muted); }
@@ -104,23 +110,29 @@
     <!-- HERO SECTION -->
     <section id="home">
         <div class="container text-center">
-            <h1 class="hero-title">Mallayya Hiremath[span_2](start_span)[span_2](end_span)</h1>
+            
+            <!-- PROFILE IMAGE (ಇಲ್ಲಿ ನಿಮ್ಮ ಫೋಟೋ ಹೆಸರು ಹಾಕಿ) -->
+            <div class="profile-img-wrapper">
+                <img src="mallayyaimage.jpg" alt="Mallayya Hiremath Profile" class="profile-img">
+            </div>
+
+            <h1 class="hero-title">Mallayya Hiremath[span_1](start_span)[span_1](end_span)</h1>
             <div class="hero-subtitle" id="typewriter"></div>
-            <p class="hero-tags">Enterprise IT Operations | End User Computing (EUC) | Endpoint Management | Automation & AI Solutions[span_3](start_span)[span_3](end_span)</p>
-            <p style="margin-bottom: 30px;">📍 Dubai, UAE & Bangalore, India (Open to Global & India Relocation)[span_4](start_span)[span_4](end_span)</p>
+            <p class="hero-tags">Enterprise IT Operations | End User Computing (EUC) | Endpoint Management | Automation & AI Solutions[span_2](start_span)[span_2](end_span)</p>
+            <p style="margin-bottom: 30px;">📍 Dubai, UAE & Bangalore, India (Open to Global & India Relocation)[span_3](start_span)[span_3](end_span)</p>
             
             <a href="#experience" class="btn">View My Work</a>
             <a href="#contact" class="btn">Get In Touch</a>
 
             <div class="quote-box glass-card">
-                "Technology should do more than solve problems—it should simplify work, improve user experience, and enable businesses to operate more efficiently. I strive to combine technical expertise, automation, and customer-centric service to deliver secure, reliable, and innovative workplace technology solutions that create measurable business value.[span_5](start_span)"[span_5](end_span)
+                "Technology should do more than solve problems—it should simplify work, improve user experience, and enable businesses to operate more efficiently. I strive to combine technical expertise, automation, and customer-centric service to deliver secure, reliable, and innovative workplace technology solutions that create measurable business value.[span_4](start_span)"[span_4](end_span)
             </div>
 
             <div class="stats-grid">
-                <div class="stat-item glass-card"><h3>10+</h3><p>Years IT Experience[span_6](start_span)[span_6](end_span)</p></div>
-                <div class="stat-item glass-card"><h3>1,000+</h3><p>Global Users[span_7](start_span)[span_7](end_span)</p></div>
-                <div class="stat-item glass-card"><h3>2,500+</h3><p>Devices Deployed[span_8](start_span)[span_8](end_span)</p></div>
-                <div class="stat-item glass-card"><h3>75+</h3><p>Meeting Rooms[span_9](start_span)[span_9](end_span)</p></div>
+                <div class="stat-item glass-card"><h3>10+</h3><p>Years IT Experience[span_5](start_span)[span_5](end_span)</p></div>
+                <div class="stat-item glass-card"><h3>1,000+</h3><p>Global Users[span_6](start_span)[span_6](end_span)</p></div>
+                <div class="stat-item glass-card"><h3>2,500+</h3><p>Devices Deployed[span_7](start_span)[span_7](end_span)</p></div>
+                <div class="stat-item glass-card"><h3>75+</h3><p>Meeting Rooms[span_8](start_span)[span_8](end_span)</p></div>
             </div>
         </div>
     </section>
@@ -131,12 +143,12 @@
             <div class="text-center"><h2 class="section-title">About Me & Skills</h2></div>
             <div class="about-grid">
                 <div class="glass-card">
-                    <p>I am a Senior Workplace Technology Engineer with over 10 years of progressive experience delivering enterprise IT operations, End User Computing (EUC), Endpoint Management, and IT Service Management (ITSM) across multinational organizations.[span_10](start_span)[span_10](end_span)</p>
-                    <p>Throughout my career, I have specialized in bridging the gap between complex technical infrastructure and seamless end-user experiences. Currently, I manage enterprise technology for 600+ regional users while collaborating with global IT teams to support a wider base of 1,000+ employees.[span_11](start_span)[span_11](end_span)</p>
-                    <p>My technical foundation is deeply rooted in both the Microsoft and Apple ecosystems. I bring extensive hands-on expertise in administering Windows, macOS, Microsoft 365, Google Workspace, Microsoft Intune, JAMF Pro, Okta, and ServiceNow.[span_12](start_span)[span_12](end_span)</p>
-                    <p>A defining milestone in my career was my selection for an internal international relocation from India to Dubai. This allowed me to establish and lead workplace technology operations for the launch and subsequent growth of Conde Nast Middle East.[span_13](start_span)[span_13](end_span)</p>
-                    <p>Beyond traditional IT support, I am a passionate advocate for business process improvement. I recently designed, coded, and deployed an AI-powered Facilities Management Platform that automated manual workflows, reduced operational effort by 75%, and saved the business 25 hours per week.[span_14](start_span)[span_14](end_span)</p>
-                    <p>I am known for taking absolute ownership of complex technical challenges, building trust with executive stakeholders, mentoring junior engineers, and consistently delivering customer-focused technology services in fast-paced enterprise environments.[span_15](start_span)[span_15](end_span)</p>
+                    <p>I am a Senior Workplace Technology Engineer with over 10 years of progressive experience delivering enterprise IT operations, End User Computing (EUC), Endpoint Management, and IT Service Management (ITSM) across multinational organizations.[span_9](start_span)[span_9](end_span)</p>
+                    <p>Throughout my career, I have specialized in bridging the gap between complex technical infrastructure and seamless end-user experiences. Currently, I manage enterprise technology for 600+ regional users while collaborating with global IT teams to support a wider base of 1,000+ employees.[span_10](start_span)[span_10](end_span)</p>
+                    <p>My technical foundation is deeply rooted in both the Microsoft and Apple ecosystems. I bring extensive hands-on expertise in administering Windows, macOS, Microsoft 365, Google Workspace, Microsoft Intune, JAMF Pro, Okta, and ServiceNow.[span_11](start_span)[span_11](end_span)</p>
+                    <p>A defining milestone in my career was my selection for an internal international relocation from India to Dubai. This allowed me to establish and lead workplace technology operations for the launch and subsequent growth of Conde Nast Middle East.[span_12](start_span)[span_12](end_span)</p>
+                    <p>Beyond traditional IT support, I am a passionate advocate for business process improvement. I recently designed, coded, and deployed an AI-powered Facilities Management Platform that automated manual workflows, reduced operational effort by 75%, and saved the business 25 hours per week.[span_13](start_span)[span_13](end_span)</p>
+                    <p>I am known for taking absolute ownership of complex technical challenges, building trust with executive stakeholders, mentoring junior engineers, and consistently delivering customer-focused technology services in fast-paced enterprise environments.[span_14](start_span)[span_14](end_span)</p>
                 </div>
             </div>
 
@@ -144,29 +156,29 @@
             <div class="bento-grid">
                 <div class="glass-card">
                     <h3 class="highlight">⚡ Modern Endpoint Management</h3>
-                    <p>JAMF Pro, Microsoft Intune, FileWave, Apple Business Manager (ABM), Apple DEP, Microsoft Autopilot.[span_16](start_span)[span_16](end_span)</p>
+                    <p>JAMF Pro, Microsoft Intune, FileWave, Apple Business Manager (ABM), Apple DEP, Microsoft Autopilot.[span_15](start_span)[span_15](end_span)</p>
                 </div>
                 <div class="glass-card">
                     <h3 class="highlight">🔒 Identity & Security (IAM)</h3>
-                    <p>Okta, Microsoft Entra ID (Azure AD), Active Directory, Google Admin Console, Microsoft Defender, BitLocker, FileVault, MFA, SSO.[span_17](start_span)[span_17](end_span)</p>
+                    <p>Okta, Microsoft Entra ID (Azure AD), Active Directory, Google Admin Console, Microsoft Defender, BitLocker, FileVault, MFA, SSO.[span_16](start_span)[span_16](end_span)</p>
                 </div>
                 <div class="glass-card">
                     <h3 class="highlight">💻 OS & Devices</h3>
-                    <p>Windows 10/11, macOS (Intel & Apple Silicon), Linux Desktop, iOS, Android.[span_18](start_span)[span_18](end_span)</p>
+                    <p>Windows 10/11, macOS (Intel & Apple Silicon), Linux Desktop, iOS, Android.[span_17](start_span)[span_17](end_span)</p>
                 </div>
                 <div class="glass-card">
                     <h3 class="highlight">⚙️ Automation & Scripting</h3>
-                    <p>Google Apps Script, JavaScript, HTML5, CSS3, PowerShell, Bash, Python.[span_19](start_span)[span_19](end_span)</p>
+                    <p>Google Apps Script, JavaScript, HTML5, CSS3, PowerShell, Bash, Python.[span_18](start_span)[span_18](end_span)</p>
                 </div>
                 <div class="glass-card">
                     <h3 class="highlight">☁️ Collaboration & ITSM</h3>
-                    <p>Microsoft 365, Google Workspace, Slack, Zoom, MS Teams Rooms, ServiceNow, Jira.[span_20](start_span)[span_20](end_span)</p>
+                    <p>Microsoft 365, Google Workspace, Slack, Zoom, MS Teams Rooms, ServiceNow, Jira.[span_19](start_span)[span_19](end_span)</p>
                 </div>
                 <div class="glass-card">
                     <h3 class="highlight">🎓 Credentials & Languages</h3>
-                    <p><strong>Certs:</strong> AWS Certified Cloud Practitioner, ITIL® 4 Foundation, JAMF 100.[span_21](start_span)[span_21](end_span)<br>
-                    <strong>Edu:</strong> B.Sc. Computer Science (2015), Diploma CS.[span_22](start_span)[span_22](end_span)<br>
-                    <strong>Languages:</strong> English, Hindi, Kannada.[span_23](start_span)[span_23](end_span)</p>
+                    <p><strong>Certs:</strong> AWS Certified Cloud Practitioner, ITIL® 4 Foundation, JAMF 100.[span_20](start_span)[span_20](end_span)<br>
+                    <strong>Edu:</strong> B.Sc. Computer Science (2015), Diploma CS.[span_21](start_span)[span_21](end_span)<br>
+                    <strong>Languages:</strong> English, Hindi, Kannada.[span_22](start_span)[span_22](end_span)</p>
                 </div>
             </div>
         </div>
@@ -179,59 +191,59 @@
             <div class="timeline">
                 
                 <div class="timeline-item">
-                    <h3>Senior Workplace Technology Engineer / IT Support BP[span_24](start_span)[span_24](end_span)</h3>
-                    <p class="highlight">Conde Nast Middle East | Dubai, UAE | Sep 2023 – Present[span_25](start_span)[span_25](end_span)</p>
-                    <p><em>(Selected for an internal international relocation to establish and lead regional IT operations following consistent high performance in the Bangalore entity)[span_26](start_span)[span_26](end_span)</em></p>
+                    <h3>Senior Workplace Technology Engineer / IT Support BP[span_23](start_span)[span_23](end_span)</h3>
+                    <p class="highlight">Conde Nast Middle East | Dubai, UAE | Sep 2023 – Present[span_24](start_span)[span_24](end_span)</p>
+                    <p><em>(Selected for an internal international relocation to establish and lead regional IT operations following consistent high performance in the Bangalore entity)[span_25](start_span)[span_25](end_span)</em></p>
                     <details>
                         <summary>Click to view full responsibilities</summary>
                         <ul>
-                            <li><strong>Regional Office Launch & Expansion:</strong> Spearheaded the workplace technology rollout for the successful establishment of the Dubai office. Seamlessly onboarded 150+ regional employees, deployed and configured 200+ enterprise endpoints, and commissioned 12 modern collaboration meeting rooms.[span_27](start_span)[span_27](end_span)</li>
-                            <li><strong>Enterprise IT Leadership:</strong> Lead L2 workplace technology operations for the region, serving as a trusted technical escalation point for complex issues while collaborating with global Infrastructure, Security, and Cloud engineering teams.[span_28](start_span)[span_28](end_span)</li>
-                            <li><strong>Executive Support & Vendor Management:</strong> Deliver proactive, high-quality technology support for regional executives and business leaders. Coordinate heavily with local hardware, software, and ISP vendors to ensure technology readiness, office expansion support, and business continuity.[span_29](start_span)[span_29](end_span)</li>
-                            <li><strong>Modern Endpoint & Identity Management:</strong> Administer the regional endpoint and identity ecosystem, ensuring strict compliance, security, and asset lifecycle governance utilizing JAMF Pro, Microsoft Intune, Okta, and Microsoft Entra ID.[span_30](start_span)[span_30](end_span)</li>
+                            <li><strong>Regional Office Launch & Expansion:</strong> Spearheaded the workplace technology rollout for the successful establishment of the Dubai office. Seamlessly onboarded 150+ regional employees, deployed and configured 200+ enterprise endpoints, and commissioned 12 modern collaboration meeting rooms.[span_26](start_span)[span_26](end_span)</li>
+                            <li><strong>Enterprise IT Leadership:</strong> Lead L2 workplace technology operations for the region, serving as a trusted technical escalation point for complex issues while collaborating with global Infrastructure, Security, and Cloud engineering teams.[span_27](start_span)[span_27](end_span)</li>
+                            <li><strong>Executive Support & Vendor Management:</strong> Deliver proactive, high-quality technology support for regional executives and business leaders. Coordinate heavily with local hardware, software, and ISP vendors to ensure technology readiness, office expansion support, and business continuity.[span_28](start_span)[span_28](end_span)</li>
+                            <li><strong>Modern Endpoint & Identity Management:</strong> Administer the regional endpoint and identity ecosystem, ensuring strict compliance, security, and asset lifecycle governance utilizing JAMF Pro, Microsoft Intune, Okta, and Microsoft Entra ID.[span_29](start_span)[span_29](end_span)</li>
                         </ul>
                     </details>
                 </div>
 
                 <div class="timeline-item">
-                    <h3>Senior Technology Support Engineer[span_31](start_span)[span_31](end_span)</h3>
-                    <p class="highlight">Conde Nast Technology Lab | Bangalore, India | Sep 2020 – Sep 2023[span_32](start_span)[span_32](end_span)</p>
+                    <h3>Senior Technology Support Engineer[span_30](start_span)[span_30](end_span)</h3>
+                    <p class="highlight">Conde Nast Technology Lab | Bangalore, India | Sep 2020 – Sep 2023[span_31](start_span)[span_31](end_span)</p>
                     <details>
                         <summary>Click to view full responsibilities</summary>
                         <ul>
-                            <li><strong>Global IT Operations:</strong> Delivered comprehensive L1/L2 enterprise support, collaborating with global technology teams to support a user base of 1,000+ employees across multinational environments.[span_33](start_span)[span_33](end_span)</li>
-                            <li><strong>Enterprise Device Administration:</strong> Managed a large-scale hardware fleet consisting of 700+ Apple devices, 100–150 Windows laptops, and 30+ mobile devices. Utilized Apple Business Manager (ABM), Microsoft Autopilot, and FileWave for automated device enrollment, OS upgrades, and patch management.[span_34](start_span)[span_34](end_span)</li>
-                            <li><strong>AI & Workflow Automation:</strong> Designed and developed an innovative AI-powered Facilities Management Platform utilizing Google Apps Script, HTML, CSS, and JavaScript. This initiative automated vendor and contract management, reducing manual operational effort by 75% and saving approximately 25 hours per week.[span_35](start_span)[span_35](end_span)</li>
-                            <li><strong>Collaboration & Identity Administration:</strong> Provided deep technical support for Microsoft 365 and Google Workspace environments, alongside rigorous Identity & Access Management (IAM) through Active Directory, Google Admin Console, and SSO/MFA troubleshooting.[span_36](start_span)[span_36](end_span)</li>
-                            <li><strong>IT Service Delivery:</strong> Consistently met strict enterprise SLA targets while managing an average workload of 40–50 service tickets per week via ServiceNow and Jira Service Management.[span_37](start_span)[span_37](end_span)</li>
+                            <li><strong>Global IT Operations:</strong> Delivered comprehensive L1/L2 enterprise support, collaborating with global technology teams to support a user base of 1,000+ employees across multinational environments.[span_32](start_span)[span_32](end_span)</li>
+                            <li><strong>Enterprise Device Administration:</strong> Managed a large-scale hardware fleet consisting of 700+ Apple devices, 100–150 Windows laptops, and 30+ mobile devices. Utilized Apple Business Manager (ABM), Microsoft Autopilot, and FileWave for automated device enrollment, OS upgrades, and patch management.[span_33](start_span)[span_33](end_span)</li>
+                            <li><strong>AI & Workflow Automation:</strong> Designed and developed an innovative AI-powered Facilities Management Platform utilizing Google Apps Script, HTML, CSS, and JavaScript. This initiative automated vendor and contract management, reducing manual operational effort by 75% and saving approximately 25 hours per week.[span_34](start_span)[span_34](end_span)</li>
+                            <li><strong>Collaboration & Identity Administration:</strong> Provided deep technical support for Microsoft 365 and Google Workspace environments, alongside rigorous Identity & Access Management (IAM) through Active Directory, Google Admin Console, and SSO/MFA troubleshooting.[span_35](start_span)[span_35](end_span)</li>
+                            <li><strong>IT Service Delivery:</strong> Consistently met strict enterprise SLA targets while managing an average workload of 40–50 service tickets per week via ServiceNow and Jira Service Management.[span_36](start_span)[span_36](end_span)</li>
                         </ul>
                     </details>
                 </div>
 
                 <div class="timeline-item">
-                    <h3>System Engineer (L2)[span_38](start_span)[span_38](end_span)</h3>
-                    <p class="highlight">FCB ULKA Advertising | Bangalore, India | Mar 2017 – Aug 2020[span_39](start_span)[span_39](end_span)</p>
-                    <p><em>(Retained continuously across three managed service providers: NTT DATA, IBM India, and Wipro based on technical expertise, ownership, and client satisfaction)[span_40](start_span)[span_40](end_span)</em></p>
+                    <h3>System Engineer (L2)[span_37](start_span)[span_37](end_span)</h3>
+                    <p class="highlight">FCB ULKA Advertising | Bangalore, India | Mar 2017 – Aug 2020[span_38](start_span)[span_38](end_span)</p>
+                    <p><em>(Retained continuously across three managed service providers: NTT DATA, IBM India, and Wipro based on technical expertise, ownership, and client satisfaction)[span_39](start_span)[span_39](end_span)</em></p>
                     <details>
                         <summary>Click to view full responsibilities</summary>
                         <ul>
-                            <li><strong>Creative Technology Support:</strong> Provided specialized IT desktop support for 200+ creative professionals, managing advanced hardware and software including Adobe Creative Cloud (Photoshop, Illustrator, Premiere Pro), Wacom tablets, and professional plotters.[span_41](start_span)[span_41](end_span)</li>
-                            <li><strong>Device Deployment & Asset Lifecycle:</strong> Executed Windows imaging, software deployment, user data migrations, and large-scale hardware refresh programs while maintaining accurate asset documentation.[span_42](start_span)[span_42](end_span)</li>
-                            <li><strong>Infrastructure & Networking:</strong> Delivered L1/L2 support for Active Directory, Windows Server, DNS, DHCP, and enterprise network infrastructure (LAN, Wi-Fi, switches, routers).[span_43](start_span)[span_43](end_span)</li>
-                            <li><strong>Mentorship & Leadership:</strong> Promoted from L1 to L2 Engineer, became the primary onsite IT contact, and mentored newly onboarded engineers through technical guidance.[span_44](start_span)[span_44](end_span)</li>
+                            <li><strong>Creative Technology Support:</strong> Provided specialized IT desktop support for 200+ creative professionals, managing advanced hardware and software including Adobe Creative Cloud (Photoshop, Illustrator, Premiere Pro), Wacom tablets, and professional plotters.[span_40](start_span)[span_40](end_span)</li>
+                            <li><strong>Device Deployment & Asset Lifecycle:</strong> Executed Windows imaging, software deployment, user data migrations, and large-scale hardware refresh programs while maintaining accurate asset documentation.[span_41](start_span)[span_41](end_span)</li>
+                            <li><strong>Infrastructure & Networking:</strong> Delivered L1/L2 support for Active Directory, Windows Server, DNS, DHCP, and enterprise network infrastructure (LAN, Wi-Fi, switches, routers).[span_42](start_span)[span_42](end_span)</li>
+                            <li><strong>Mentorship & Leadership:</strong> Promoted from L1 to L2 Engineer, became the primary onsite IT contact, and mentored newly onboarded engineers through technical guidance.[span_43](start_span)[span_43](end_span)</li>
                         </ul>
                     </details>
                 </div>
 
                 <div class="timeline-item">
-                    <h3>Technical Support Engineer[span_45](start_span)[span_45](end_span)</h3>
-                    <p class="highlight">Nokia Authorized Service Centre | Bangalore, India | Jan 2016 – Jan 2017[span_46](start_span)[span_46](end_span)</p>
+                    <h3>Technical Support Engineer[span_44](start_span)[span_44](end_span)</h3>
+                    <p class="highlight">Nokia Authorized Service Centre | Bangalore, India | Jan 2016 – Jan 2017[span_45](start_span)[span_45](end_span)</p>
                     <details>
                         <summary>Click to view full responsibilities</summary>
                         <ul>
-                            <li><strong>Technical Diagnostics:</strong> Performed comprehensive hardware and software diagnostics for Nokia, Microsoft Lumia, and Android devices using the Nokia Care Suite.[span_47](start_span)[span_47](end_span)</li>
-                            <li><strong>Service Operations:</strong> Consistently handled 30–35 devices weekly, meeting strict repair SLAs and turnaround targets for screen replacements, firmware flashing, and OS installations.[span_48](start_span)[span_48](end_span)</li>
-                            <li><strong>Customer Experience:</strong> Managed warranty claims, walked customers through repair timelines, and maintained excellent customer satisfaction metrics.[span_49](start_span)[span_49](end_span)</li>
+                            <li><strong>Technical Diagnostics:</strong> Performed comprehensive hardware and software diagnostics for Nokia, Microsoft Lumia, and Android devices using the Nokia Care Suite.[span_46](start_span)[span_46](end_span)</li>
+                            <li><strong>Service Operations:</strong> Consistently handled 30–35 devices weekly, meeting strict repair SLAs and turnaround targets for screen replacements, firmware flashing, and OS installations.[span_47](start_span)[span_47](end_span)</li>
+                            <li><strong>Customer Experience:</strong> Managed warranty claims, walked customers through repair timelines, and maintained excellent customer satisfaction metrics.[span_48](start_span)[span_48](end_span)</li>
                         </ul>
                     </details>
                 </div>
@@ -248,25 +260,25 @@
             
             <div class="projects-slider">
                 <div class="project-card glass-card">
-                    <h3 class="highlight">AI-Powered Facilities Management Platform[span_50](start_span)[span_50](end_span)</h3>
-                    <p><strong>The Challenge:</strong> The business relied on inefficient, spreadsheet-based manual tracking for facilities operations, vendor contracts, and asset management across multiple locations.[span_51](start_span)[span_51](end_span)</p>
-                    <p><strong>My Role:</strong> Solution Designer & Full-Stack Developer.[span_52](start_span)[span_52](end_span)</p>
-                    <p><strong>The Solution:</strong> I independently designed and deployed an AI-enabled platform using Google Apps Script, HTML5, CSS3, JavaScript, and the Gmail API, utilizing Google Sheets as a database.[span_53](start_span)[span_53](end_span)</p>
-                    <p><strong>The Impact:</strong> The platform introduced automated email notifications, interactive dashboards, and automated compliance tracking. This reduced manual effort by 75%, saved 25 operational hours per week, standardized processes across 3 office locations, and provided unified visibility for 15 business users.[span_54](start_span)[span_54](end_span)</p>
+                    <h3 class="highlight">AI-Powered Facilities Management Platform[span_49](start_span)[span_49](end_span)</h3>
+                    <p><strong>The Challenge:</strong> The business relied on inefficient, spreadsheet-based manual tracking for facilities operations, vendor contracts, and asset management across multiple locations.[span_50](start_span)[span_50](end_span)</p>
+                    <p><strong>My Role:</strong> Solution Designer & Full-Stack Developer.[span_51](start_span)[span_51](end_span)</p>
+                    <p><strong>The Solution:</strong> I independently designed and deployed an AI-enabled platform using Google Apps Script, HTML5, CSS3, JavaScript, and the Gmail API, utilizing Google Sheets as a database.[span_52](start_span)[span_52](end_span)</p>
+                    <p><strong>The Impact:</strong> The platform introduced automated email notifications, interactive dashboards, and automated compliance tracking. This reduced manual effort by 75%, saved 25 operational hours per week, standardized processes across 3 office locations, and provided unified visibility for 15 business users.[span_53](start_span)[span_53](end_span)</p>
                 </div>
                 
                 <div class="project-card glass-card">
-                    <h3 class="highlight">Conde Nast Middle East Office Expansion[span_55](start_span)[span_55](end_span)</h3>
-                    <p><strong>The Challenge:</strong> Establish a secure, high-performing workplace technology infrastructure for a major regional business launch in Dubai.[span_56](start_span)[span_56](end_span)</p>
-                    <p><strong>The Solution:</strong> Planned and executed the end-to-end technology rollout, coordinating extensively with global IT teams, network engineers, and external hardware/ISP vendors.[span_57](start_span)[span_57](end_span)</p>
-                    <p><strong>The Impact:</strong> Successfully onboarded 150+ employees, commissioned 12 fully integrated modern meeting rooms (Microsoft Teams Rooms / Zoom Rooms), and deployed 200+ enterprise endpoints, ensuring total business readiness before launch.[span_58](start_span)[span_58](end_span)</p>
+                    <h3 class="highlight">Conde Nast Middle East Office Expansion[span_54](start_span)[span_54](end_span)</h3>
+                    <p><strong>The Challenge:</strong> Establish a secure, high-performing workplace technology infrastructure for a major regional business launch in Dubai.[span_55](start_span)[span_55](end_span)</p>
+                    <p><strong>The Solution:</strong> Planned and executed the end-to-end technology rollout, coordinating extensively with global IT teams, network engineers, and external hardware/ISP vendors.[span_56](start_span)[span_56](end_span)</p>
+                    <p><strong>The Impact:</strong> Successfully onboarded 150+ employees, commissioned 12 fully integrated modern meeting rooms (Microsoft Teams Rooms / Zoom Rooms), and deployed 200+ enterprise endpoints, ensuring total business readiness before launch.[span_57](start_span)[span_57](end_span)</p>
                 </div>
 
                 <div class="project-card glass-card">
-                    <h3 class="highlight">Enterprise Endpoint Modernization & Migrations[span_59](start_span)[span_59](end_span)</h3>
-                    <p><strong>The Challenge:</strong> Transitioning aging hardware and fragmented operating systems into a unified, secure, and modern endpoint ecosystem.[span_60](start_span)[span_60](end_span)</p>
-                    <p><strong>The Solution:</strong> Led enterprise-wide hardware refresh programs and OS migrations using JAMF Pro, Microsoft Intune, and FileWave.[span_61](start_span)[span_61](end_span)</p>
-                    <p><strong>The Impact:</strong> Executed seamless Windows and macOS upgrades, enforced strict security compliance policies, and migrated user data with zero critical data loss or business disruption.[span_62](start_span)[span_62](end_span)</p>
+                    <h3 class="highlight">Enterprise Endpoint Modernization & Migrations[span_58](start_span)[span_58](end_span)</h3>
+                    <p><strong>The Challenge:</strong> Transitioning aging hardware and fragmented operating systems into a unified, secure, and modern endpoint ecosystem.[span_59](start_span)[span_59](end_span)</p>
+                    <p><strong>The Solution:</strong> Led enterprise-wide hardware refresh programs and OS migrations using JAMF Pro, Microsoft Intune, and FileWave.[span_60](start_span)[span_60](end_span)</p>
+                    <p><strong>The Impact:</strong> Executed seamless Windows and macOS upgrades, enforced strict security compliance policies, and migrated user data with zero critical data loss or business disruption.[span_61](start_span)[span_61](end_span)</p>
                 </div>
             </div>
         </div>
@@ -282,14 +294,14 @@
                 <div class="glass-card contact-info">
                     <h3>Contact Details</h3>
                     <ul>
-                        <li>📧 <a href="mailto:mallayyahiremath1992@gmail.com">mallayyahiremath1992@gmail.com</a>[span_63](start_span)[span_63](end_span)</li>
-                        <li>📱 UAE: +971 55 955 4675[span_64](start_span)[span_64](end_span)</li>
-                        <li>📱 India: +91 9513778775[span_65](start_span)[span_65](end_span)</li>
-                        <li>📍 Dubai, UAE & Bangalore, India (Open to Relocation)[span_66](start_span)[span_66](end_span)</li>
-                        <li>🔗 <a href="https://linkedin.com/in/mallayyahiremath1992" target="_blank">linkedin.com/in/mallayyahiremath1992</a>[span_67](start_span)[span_67](end_span)</li>
+                        <li>📧 <a href="mailto:mallayyahiremath1992@gmail.com">mallayyahiremath1992@gmail.com</a>[span_62](start_span)[span_62](end_span)</li>
+                        <li>📱 UAE: +971 55 955 4675[span_63](start_span)[span_63](end_span)</li>
+                        <li>📱 India: +91 9513778775[span_64](start_span)[span_64](end_span)</li>
+                        <li>📍 Dubai, UAE & Bangalore, India (Open to Relocation)[span_65](start_span)[span_65](end_span)</li>
+                        <li>🔗 <a href="https://linkedin.com/in/mallayyahiremath1992" target="_blank">linkedin.com/in/mallayyahiremath1992</a>[span_66](start_span)[span_66](end_span)</li>
                     </ul>
                     <hr style="border-color: var(--glass-border); margin: 20px 0;">
-                    <p><strong>Target Roles:</strong> Seeking senior opportunities as a Senior Workplace Technology Engineer | Workplace Technology Lead | IT Operations Engineer.[span_68](start_span)[span_68](end_span)</p>
+                    <p><strong>Target Roles:</strong> Seeking senior opportunities as a Senior Workplace Technology Engineer | Workplace Technology Lead | IT Operations Engineer.[span_67](start_span)[span_67](end_span)</p>
                 </div>
 
                 <div class="glass-card">
